@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.event-listings {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+}
+
+.event-card h3 {
+    margin-top: 10px;
+}
+
+.event-card p {
+    margin-bottom: 10px;
+}
+
+.event-card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.event-card a:hover {
+    background-color: #0056b3;
+}
+
+testimonials {
+    margin: 20px;
+}
+
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    margin-bottom: 10px;
+}

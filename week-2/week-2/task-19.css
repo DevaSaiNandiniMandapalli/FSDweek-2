@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    overflow: hidden; 
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box; }
+
+.main-content {
+    float: right;
+    width: 70%;
+    background-color: #e0e0e0;
+    padding: 20px;
+    box-sizing: border-box; 
+}

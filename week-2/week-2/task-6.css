@@ -1,0 +1,13 @@
+.warning-box {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.warning-box p {
+    text-align: center;
+}
